@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment {
-        Image_name = "poojadocker912/external-app:V_${BUILD_ID}"
+        Image_name = "poojadocker912/external-app:V-${BUILD_ID}"
         docker_user = "poojadocker912"
         docker_pass = "FEWsteps*2018"
     }
